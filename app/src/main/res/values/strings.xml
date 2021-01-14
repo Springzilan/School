@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">School</string>
+    <string name="login">Login</string>
+    <string name="user_name">USER NAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="注册">REGISTER</string>
+</resources>

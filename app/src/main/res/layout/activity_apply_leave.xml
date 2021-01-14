@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplyLeave">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/t1"
+            android:text="请假日期："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/leavedate"
+            android:layout_toRightOf="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/t2"
+            android:text="原因："
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/leavereason"
+            android:layout_toRightOf="@id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+<Button
+    android:id="@+id/applybtn"
+    android:text="apply"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

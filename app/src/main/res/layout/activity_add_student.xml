@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddStudent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_stu_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/textView"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/textView2"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="班级"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_batch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/textView3"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_toRightOf="@id/textView4"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOB"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_DOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/textView5"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="血型"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_bloodgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/textView6"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地址"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/textView7"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_toRightOf="@id/textView8"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邮箱"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="41dp" />
+        <EditText
+            android:id="@+id/add_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_toRightOf="@id/textView9"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="449dp" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/addstumes"
+        android:text="添加"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
